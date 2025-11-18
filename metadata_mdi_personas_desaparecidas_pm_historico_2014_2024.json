@@ -1,0 +1,260 @@
+{
+  "zona": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 8,
+    "sample": [
+      "ZONA 2",
+      "ZONA 5",
+      "ZONA 3",
+      "ZONA 1",
+      "ZONA 7"
+    ]
+  },
+  "provincia": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 24,
+    "sample": [
+      "PICHINCHA",
+      "GUAYAS",
+      "TUNGURAHUA",
+      "COTOPAXI",
+      "SUCUMBIOS"
+    ]
+  },
+  "canton": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 221,
+    "sample": [
+      "QUITO",
+      "GUAYAQUIL",
+      "AMBATO",
+      "LATACUNGA",
+      "GONZALO PIZARRO"
+    ]
+  },
+  "distrito": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 141,
+    "sample": [
+      "EUGENIO ESPEJO",
+      "FLORIDA",
+      "AMBATO SUR",
+      "LATACUNGA",
+      "SUCUMBIOS"
+    ]
+  },
+  "circuito": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 969,
+    "sample": [
+      "SAN ISIDRO DEL INCA",
+      "MARTHA DE ROLDOS",
+      "LETAMENDI",
+      "JOSEGUANGO",
+      "LUMBAQUI"
+    ]
+  },
+  "subcircuito": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 1650,
+    "sample": [
+      "SAN ISIDRO DEL INCA 4",
+      "MARTHA DE ROLDOS 1",
+      "LETAMENDI 1",
+      "JOSEGUANGO 1",
+      "LUMBAQUI 1"
+    ]
+  },
+  "sexo": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 2,
+    "sample": [
+      "MUJER",
+      "HOMBRE"
+    ]
+  },
+  "nacionalidad": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 36,
+    "sample": [
+      "COLOMBIA",
+      "ECUADOR",
+      "DESCONOCIDO",
+      "CUBA",
+      "VENEZUELA"
+    ]
+  },
+  "edad_aproximada": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 103,
+    "sample": [
+      "14",
+      "20",
+      "17",
+      "22",
+      "93"
+    ]
+  },
+  "rango_edad": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 4,
+    "sample": [
+      "ADOLESCENTES",
+      "ADULTOS",
+      "ADULTO MAYOR ",
+      "NIÑOS(AS)"
+    ]
+  },
+  "etnia": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 9,
+    "sample": [
+      "MESTIZO/A",
+      "INDIGENA",
+      "MULATO/A",
+      "BLANCO/A",
+      "OTROS"
+    ]
+  },
+  "fecha_localizacion": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 3068,
+    "sample": [
+      "2018-01-24 00:00:00",
+      "2021-06-09 00:00:00",
+      "2021-06-02 00:00:00",
+      "2021-05-31 00:00:00",
+      "2019-07-06 00:00:00"
+    ]
+  },
+  "motivo_desaparicion": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 13,
+    "sample": [
+      "CAUSAS FAMILIARES",
+      "CAUSAS SOCIALES",
+      "FALLECIDO",
+      "EXTRAVIADO - AUSENCIA TEMPORAL",
+      "EXTRAVIADO - DISCAPACIDAD / ENFERMEDADES / TRASTORNOS"
+    ]
+  },
+  "motivo_desaparicion_observada": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 62,
+    "sample": [
+      "PROBLEMAS SENTIMENTALES",
+      "DROGADICCION",
+      "NO RELACIONADOS A VIOLENCIA ",
+      "NO DETERMINADA",
+      "PERSONA EXTRAVIADA"
+    ]
+  },
+  "situacion_actual": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 3,
+    "sample": [
+      "ENCONTRADO",
+      "FALLECIDO",
+      "DESAPARECIDO"
+    ]
+  },
+  "dias_solucion": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 948,
+    "sample": [
+      "44",
+      "9",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "latitud_desaparicion": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 47262,
+    "sample": [
+      "'-0.151062400000000013",
+      "'-2.15486900000000015",
+      "'-1.24724970000000002",
+      "'-0.865133903604262899",
+      "'0.046658100000000001"
+    ]
+  },
+  "longitud_desaparicion": {
+    "dtype": "object",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 47649,
+    "sample": [
+      "'-78.4581433999999831",
+      "'-79.9185705999999954",
+      "'-78.6200128999999919",
+      "'-78.5948506211418589",
+      "'-77.3281349999999748"
+    ]
+  },
+  "fecha_denuncia": {
+    "dtype": "datetime64[ns]",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 2979,
+    "sample": [
+      "2017-12-11 00:00:00",
+      "2021-05-31 00:00:00",
+      "2021-06-01 00:00:00",
+      "2021-05-29 00:00:00",
+      "2019-07-03 00:00:00"
+    ],
+    "min_date": "2017-01-01 00:00:00",
+    "max_date": "2025-06-19 00:00:00"
+  },
+  "fecha_desaparicion": {
+    "dtype": "datetime64[ns]",
+    "non_null": 67929,
+    "nulls": 0,
+    "unique": 2922,
+    "sample": [
+      "2017-12-07 00:00:00",
+      "2021-05-24 00:00:00",
+      "2021-06-01 00:00:00",
+      "2021-05-28 00:00:00",
+      "2019-07-01 00:00:00"
+    ],
+    "min_date": "2017-01-01 00:00:00",
+    "max_date": "2024-12-31 00:00:00"
+  }
+}
