@@ -100,7 +100,7 @@ with tab1:
         st.write(f"🔵 Probabilidad de que el caso se resuelva: **{p_resuelto:.2%}**")
         st.write(f"🟢 Probabilidad de ser encontrado **vivo**: **{p_encontrado_vivo:.2%}**")
     
-        st.caption("Estas probabilidades son estimaciones estadísticas basadas en datos históricos,no determinan el resultado real de un caso individual.")
+        st.caption("Estas probabilidades son estimaciones estadísticas basadas en datos históricos, no determinan el resultado real de un caso individual.")
 
 
 
